@@ -1,0 +1,79 @@
+<!-- code for menu button of small screen header -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .menu {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      list-style: none;
+      margin-left: 50%;
+      margin-right: 20%;
+      margin-top: 20%;
+      margin-bottom: 20%;
+      font-size: 30px;
+      font-family: calibri;
+    }
+
+    hr {
+      width: 25px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      float: right;
+      position: relative;
+      margin: 5px;
+      color: white;
+      background-color: black;
+      border-color: black;
+      border-style: solid;
+      margin-top: -20%;
+    }
+  </style>
+</head>
+
+<body>
+  <button><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+        class="bi bi-x" viewBox="0 0 16 16">
+        <path
+          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+      </svg></a></button>
+  <ul class="menu">
+    <li><a href="#">Log in</a></li>
+    <li><a href="#">Sign up</a></li>
+    <hr>
+    <li><a href="#">Premium</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Download</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+  </ul>
+</body>
+
+</html>

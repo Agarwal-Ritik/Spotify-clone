@@ -1,0 +1,129 @@
+@media screen and (min-width: 1197px) {
+  .laptophead {
+    display: block;
+  }
+
+}
+
+@media (min-width:1105px) and (max-width:1197px) {
+  .laptophead {
+    display: block;
+  }
+
+  .navlist {
+    grid-template-columns: 0.1fr 3.5fr 0.5fr 0.5fr 0.5fr 0.1fr 0.8fr 1.2fr 0.2fr;
+  }
+
+}
+
+@media (min-width:986px) and (max-width:1105px) {
+  .laptophead {
+    display: block;
+  }
+
+  .navlist {
+    grid-template-columns: 0.1fr 2.5fr 0.5fr 0.5fr 0.5fr 0.1fr 0.8fr 1.2fr 0.15fr;
+  }
+
+  .gridfoot {
+    font-size: 10px;
+    gap: 0.2rem;
+  }
+
+  .sec1footer {
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width:884px) and (max-width:986px) {
+  .laptophead {
+    display: block;
+  }
+
+  .navlist {
+    grid-template-columns: 0.1fr 1.5fr 0.5fr 0.5fr 0.5fr 0.1fr 0.8fr 1.2fr 0.1fr;
+  }
+}
+
+@media (min-width:769px) and (max-width:884px) {
+  .laptophead {
+    display: block;
+  }
+
+  .navlist {
+    grid-template-columns: 0.1fr 0.3fr 0.5fr 0.5fr 0.5fr 0.1fr 0.8fr 1.2fr 0.1fr;
+    width: 100%;
+  }
+
+  .section1 {
+    display: none;
+  }
+
+  .section2 {
+    margin: 0px;
+    border-radius: 0px;
+  }
+}
+
+/* Add media queries to modify styles for different screen sizes */
+@media (min-width:480px) and (max-width: 768px) {
+  .tablethead {
+    display: block;
+  }
+
+  .navlist {
+    grid-template-columns: 0.1fr 2.5fr 0.5fr 0.5fr 0.1fr 0.8fr 1.2fr;
+    width: 100%;
+    text-align: right;
+  }
+
+  .section1 {
+    display: none;
+  }
+
+  .section2 {
+    margin: 0px;
+    border-radius: 0px;
+  }
+}
+
+@media (min-width:50px) and (max-width: 480px) {
+  .section1 {
+    display: none;
+  }
+
+  .section2 {
+    margin: 0px;
+    border-radius: 0px;
+  }
+
+  .mobilehead {
+    display: block;
+  }
+}
+
+@media (min-width:376px) and (max-width: 630px) {
+  .tabletfoot {
+    display: block;
+  }
+}
+
+@media (min-width: 60px) and (max-width: 376px) {
+  .tabletfoot {
+    display: block;
+  }
+
+  .communities {
+    display: none;
+  }
+
+  .sec2footer {
+    grid-template-columns: 1.7fr 1.7fr 0.1fr;
+  }
+}
+
+@media screen and (min-width:630px) {
+  .laptopfoot {
+    display: block;
+  }
+}

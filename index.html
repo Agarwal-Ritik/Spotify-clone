@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
+</head>
+
+<body>
+  <!-- code starts here -->
+  <div class="page">
+
+    <!-- Section1 of the page-->
+    <div class="section1">
+
+      <!-- box1 of section1 -->
+      <div class="outerbox">
+        <div class="inbox">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#fff" viewBox="0 0 576 512">
+              <path
+                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+            </svg>
+          </div>
+          <div>
+            <strong>Home</strong>
+          </div>
+        </div>
+        <div class="inbox">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </div>
+          <div>
+            <strong>Search</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- box2 of section1 -->
+      <div class="midsec1">
+        <div class="inbox2">
+          <div>
+            <a href="#" class="library"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                fill="currentColor" class="bi bi-collection-fill" viewBox="0 0 16 16">
+                <path
+                  d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z" />
+              </svg></a>
+          </div>
+          <div>
+            <a href="#"><span><strong>Your Library</strong></span></a>
+          </div>
+          <div>
+            <a href="#" class="add"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                class="bi bi-plus-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+              </svg></a>
+          </div>
+        </div>
+        <div>
+          <section>
+            <div>
+              <span>Create your first playlist</span><br>
+              <span style="font-size: 15px; padding-top: 15px;">It's easy, we'll help you</span><br>
+              <a href="#"><button class="librarybutton"><strong>Create playlist</strong></button></a>
+            </div>
+            <div>
+              <span>Let's find some podcasts to follow</span><br>
+              <span style="font-size: 13px; padding-top: 15px;">We'll keep you updated on new episodes</span><br>
+              <a href="#"><button class="librarybutton"><strong>Browse podcasts</strong></button></a>
+            </div>
+          </section>
+        </div>
+
+        <!-- footer of section1 -->
+        <footer>
+          <div class="inbox2">
+            <div class="gridfoot">
+              <div class="sec1footer">
+                <pre><a href="#">Legal</a></pre>
+                <pre><a href="#">Privacy Centre</a></pre>
+                <pre><a href="#">Privacy Policy</a></pre>
+              </div>
+              <div class="sec1footer">
+                <pre>Cookies</a></pre>
+                <pre><a href="#">About Ads</a></pre>
+                <pre><a href="#">Accessibility</a></pre>
+              </div>
+              <div class="sec1footer">
+                <pre><a href="#" class="footlink">Cookies</a></pre>
+              </div>
+            </div>
+          </div>
+          <div style="padding-top:20px;">
+            <a href="#"><button class="sec1footbutton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-globe2"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                </svg> <span>English</span></button></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- section1 ends here -->
+
+    <!-- Section2 starts here -->
+    <div class="section2">
+
+      <!-- navigation bar of page -->
+      <header class="laptophead">
+        <ul class="navlist">
+          <li class="circle"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chevron-left" viewBox="1.2 -1.6 16 16">
+                <path fill-rule="evenodd"
+                  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+              </svg></i></li>
+          <li class="circle"><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-chevron-right" viewBox="-1.2 -1.7 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg></i></li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Download</a></li>
+          <hr>
+          <li><a href="#">Sign up</a></li>
+          <li>
+            <form><a href="#"><button class="logbutton">Log in</button></a></form>
+          </li>
+        </ul>
+      </header>
+
+      <header class="tablethead">
+        <ul class="navlist">
+          <li><i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-spotify"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />
+              </svg></i></li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Download</a></li>
+          <hr>
+          <li><a href="#">Sign up</a></li>
+          <li>
+            <form><a href="#"><button class="logbutton">Log in</button></a></form>
+          </li>
+        </ul>
+      </header>
+
+      <header class="mobilehead">
+        <ul class="navbar">
+          <li style="padding-top:5px;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+              class="bi bi-spotify" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />
+            </svg>
+          </li>
+          <li style="font-size:25px;">Spotify</li>
+          <li style="padding-top:5px;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></li>
+          <li style="padding-top:2px;">
+            <button class="menubtn">
+              <a href="menu.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </a>
+            </button>
+          </li>
+        </ul>
+      </header>
+
+      <!-- tracklists of section2 -->
+
+      <div style="display:flex; justify-content: space-between; margin-top: 80px;">
+        <p
+          style="margin-left: 18px; font-size: 25px; font-weight: 900; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+          <span class="more"><a href="#">Mood</a></span>
+        </p>
+        <p style="padding-top: 25px;margin-right: 20px;">
+          <span class="more"><a href="#">Show all</a></span>
+        </p>
+      </div>
+      <ul class="tracklist">
+        <li class="box">
+          <a href="#"><img src="8Parche.jpg" height="135px" width="135px">
+            <p><strong>8 Parche</strong><br><span style="color:gray; font-size: 16px;">2019 Gur Sidhu, Baani
+                Sandhu</span></p>
+            <div class="play">
+              <audio id="audio" src="1.mp3"></audio>
+              <button id="playlist" class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="safar.jpeg" height="135px" width="135px">
+            <p><strong>Safar</strong><br><span style="color:gray; font-size: 16px;">2022 Jass Manak</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="faasle.jpg" height="135px" width="135px">
+            <p><strong>Faasle</strong><br><span style="color:gray; font-size: 16px;">2021 Aditya Rikhari</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="TuneJoNaKaha.jpeg" height="135px" width="135px">
+            <p><strong>Tune Jo Na Kaha</strong><br><span style="color:gray; font-size: 15px;">2009 Mohit Chauhan</span>
+            </p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="Mockingbird.jpeg" height="135px" width="135px">
+            <p><strong>Mockingbird</strong><br><span style="color:gray; font-size: 16px;">2004 Eminem</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="AnotherLove.jpeg" height="135px" width="135px">
+            <p><strong>Another Love</strong><br><span style="color:gray; font-size: 16px;">2013 Tom Odell</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <div style="display:flex; justify-content: space-between;">
+        <p
+          style="margin-left: 18px; font-size: 25px; font-weight: 900; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+          <span class="more"><a href="#">Listen again</a></span>
+        </p>
+        <p style="padding-top: 15px; margin-right: 20px;">
+          <span class="more"><a href="#">Show all</a></span>
+        </p>
+      </div>
+      <ul class="tracklist">
+        <li class="box"><a href="#"><img src="faasle.jpg" height="135px" width="135px">
+            <p><strong>Faasle</strong><br><span style="color:gray; font-size: 16px;">2021 Aditya Rikhari</span></p>
+            <div class="play">
+              <audio id="audio" src="OneBottleDown.mp3"></audio>
+              <button id="playlist" class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="safar.jpeg" height="135px" width="135px">
+            <p><strong>Safar</strong><br><span style="color:gray; font-size: 16px;">2022 Jass Manak</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="Gesaffelstein_-_Aleph.jpg" height="135px" width="135px">
+            <p><strong>Aleph</strong><br><span style="color:gray; font-size: 16px;">2013 Gesaffelstein</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="AnotherLove.jpeg" height="135px" width="135px">
+            <p><strong>Another Love</strong><br><span style="color:gray; font-size: 16px;">2013 Tom Odell</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="TuneJoNaKaha.jpeg" height="135px" width="135px">
+            <p><strong>Tune Jo Na Kaha</strong><br><span style="color:gray; font-size: 15px;">2009 Mohit Chauhan</span>
+            </p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="Mockingbird.jpeg" height="135px" width="135px">
+            <p><strong>Mockingbird</strong><br><span style="color:gray; font-size: 16px;">2004 Eminem</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div style="display:flex; justify-content: space-between;">
+        <p
+          style="margin-left: 18px; font-size: 25px; font-weight: 900; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+          <span class="more"><a href="#">Your Library</a></span>
+        </p>
+        <p style="padding-top: 15px; margin-right: 20px;">
+          <span class="more"><a href="#">Show all</a></span>
+        </p>
+      </div>
+      <ul class="tracklist">
+        <li class="box"><a href="#"><img src="Gesaffelstein_-_Aleph.jpg" height="135px" width="135px">
+            <p><strong>Aleph</strong><br><span style="color:gray; font-size: 16px;">2013 Gesaffelstein</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="faasle.jpg" height="135px" width="135px">
+            <p><strong>Faasle</strong><br><span style="color:gray; font-size: 16px;">2021 Aditya Rikhari</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="safar.jpeg" height="135px" width="135px">
+            <p><strong>Safar</strong><br><span style="color:gray; font-size: 16px;">2022 Jass Manak</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="TuneJoNaKaha.jpeg" height="135px" width="135px">
+            <p><strong>Tune Jo Na Kaha</strong><br><span style="color:gray; font-size: 15px;">2009 Mohit Chauhan</span>
+            </p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="Mockingbird.jpeg" height="135px" width="135px">
+            <p><strong>Mockingbird</strong><br><span style="color:gray; font-size: 16px;">2004 Eminem</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+        <li class="box"><a href="#"><img src="AnotherLove.jpeg" height="135px" width="135px">
+            <p><strong>Another Love</strong><br><span style="color:gray; font-size: 16px;">2013 Tom Odell</span></p>
+            <div class="play">
+              <button class="fa fa-play"></button>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      <!-- code for footer of section2 -->
+      <div class="laptopfoot">
+        <footer class="sec2footer">
+          <div>
+            <p class="head">Company</p>
+            <p><a href="#" class="footlink">About</a></p>
+            <p><a href="#" class="footlink">Jobs</a></p>
+            <p><a href="#" class="footlink">For the Record</a></p>
+          </div>
+          <div>
+            <p class="head">Communities</p>
+            <p><a href="#" class="footlink">For Artists</a></p>
+            <p><a href="#" class="footlink">Developers</a></p>
+            <p><a href="#" class="footlink">Advertising</a></p>
+            <p><a href="#" class="footlink">Investors</a></p>
+            <p><a href="#" class="footlink">Vendors</a></p>
+            <p><a href="#" class="footlink">Spotify for work</a></p>
+          </div>
+          <div>
+            <p class="head">Useful Links</p>
+            <p><a href="#" class="footlink">Support</a></p>
+            <p><a href="#" class="footlink">Free Mobile App</a></p>
+          </div>
+          <div>
+            <a href="#" class="sec2icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 
+                  5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 
+                  1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 
+                  1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 
+                  3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 
+                  3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 
+                  3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 
+                  1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 
+                  2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 
+                  0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 
+                  1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 
+                  0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              </svg>
+            </a>
+          </div>
+          <div class="icons">
+            <a href="#" class="sec2icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg>
+            </a>
+          </div>
+          <div class="icons">
+            <a href="#" class="sec2icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 
+                  3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+            </a>
+          </div>
+        </footer>
+      </div>
+
+      <div class="tabletfoot">
+        <footer class="sec2footer">
+          <div>
+            <p class="head">Company</p>
+            <p><a href="#" class="footlink">About</a></p>
+            <p><a href="#" class="footlink">Jobs</a></p>
+            <p><a href="#" class="footlink">For the Record</a></p>
+          </div>
+          <div class="communities">
+            <p class="head">Communities</p>
+            <p><a href="#" class="footlink">For Artists</a></p>
+            <p><a href="#" class="footlink">Developers</a></p>
+            <p><a href="#" class="footlink">Advertising</a></p>
+            <p><a href="#" class="footlink">Investors</a></p>
+            <p><a href="#" class="footlink">Vendors</a></p>
+            <p><a href="#" class="footlink">Spotify for work</a></p>
+          </div>
+          <div>
+            <p class="head">Useful Links</p>
+            <p><a href="#" class="footlink">Support</a></p>
+            <p><a href="#" class="footlink">Free Mobile App</a></p>
+          </div>
+          <div>
+            <div>
+              <a href="#" class="sec2icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 
+                  5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 
+                  1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 
+                  1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 
+                  3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 
+                  3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 
+                  3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 
+                  1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 
+                  2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 
+                  0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 
+                  1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 
+                  0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg>
+              </a>
+            </div><br>
+            <div class="icons">
+              <a href="#" class="sec2icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg>
+              </a>
+            </div><br>
+            <div class="icons">
+              <a href="#" class="sec2icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 
+                  3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="copyright">
+        <br>
+        <hr><br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-c-circle"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+        </svg> 2023 Spotify AB <br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>
